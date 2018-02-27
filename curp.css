@@ -1,0 +1,292 @@
+BODY {
+    BACKGROUND-COLOR: white;
+    COLOR: black;
+    FONT: 9pt Arial, Helvetica, sans-serif
+}
+
+A:link {
+    COLOR: blue;
+    FONT: 9pt Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+A:visited {
+    COLOR: #6972ff;
+    FONT: 9pt Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+A:active {
+    COLOR: blue;
+    FONT: 9pt Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+A:unknown {
+    COLOR: blue;
+    FONT: 9pt Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+A:hover {
+    COLOR: #6633ff;
+    FONT: 9pt Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+H1 {
+    FONT: bold 15pt Arial, Helvetica, sans-serif
+}
+
+H2 {
+    FONT: bold 10pt Arial, Helvetica, sans-serif
+}
+
+H3 {
+    FONT: bold 8pt Arial, Helvetica, sans-serif
+}
+
+P {
+    BACKGROUND-COLOR: transparent;
+    COLOR: black;
+    FONT: 9pt Arial, Helvetica, sans-serif
+}
+
+B {
+    BACKGROUND-COLOR: transparent;
+    COLOR: black;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold
+}
+
+.PaginaTitulo {
+    COLOR: #666666;
+    FONT: bold 10pt Arial, Helvetica, sans-serif
+}
+
+.SeparadorContenido {
+    BACKGROUND-COLOR: transparent;
+    COLOR: #dddddd;
+    FONT: 1px Arial, Helvetica, sans-serif
+}
+
+INPUT {
+    FONT: 8pt Arial, Helvetica, sans-serif
+}
+
+FORM {
+    LINE-HEIGHT: 0pt;
+    MARGIN-BOTTOM: 0pt;
+    MARGIN-TOP: 0%
+}
+
+.RenglonTabla {
+    BACKGROUND-COLOR: #ffffff;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: normal
+}
+
+.RenglonTablaColor {
+    BACKGROUND-COLOR: #eeeeee;
+    COLOR: #ffffff;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: normal
+}
+
+TD {
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: normal
+}
+
+TR {
+    BACKGROUND-COLOR: white
+}
+
+.TablaTitulo {
+    background-color: #CF242A;
+    text-align: center;
+    vertical-align: center;
+    font-style: normal;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.TablaTitulo2 {
+    background-color: #A9A9A9;
+    text-align: center;
+    vertical-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+
+TH {
+    font-family: "Courier New", Courier, mono;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #02243E;
+    background-color: #89A5C9;
+    text-align: center;
+    vertical-align: middle
+}
+
+TABLE {
+    BACKGROUND-COLOR: transparent
+}
+
+.Nota {
+    font-weight: normal;
+    color: #333366;
+    font-size: 8pt;
+}
+
+.NotaBlanca {
+    font-weight: normal;
+    color: #000000;
+    font-size: 8pt;
+}
+
+.Error {
+    COLOR: red;
+    FONT: bold 10pt Arial, Helvetica, sans-serif
+}
+
+.Obligatorio {
+    COLOR: red;
+    FONT: 10pt Arial, Helvetica, sans-serif
+}
+
+.Recomendado {
+    COLOR: green;
+    FONT: 10pt Arial, Helvetica, sans-serif
+}
+
+.Mensaje {
+    COLOR: Black;
+    FONT: bold 10pt Arial, Helvetica, sans-serif
+}
+
+.Pie {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: black;
+    font-size: 8pt
+}
+
+.Titulo {
+    COLOR: #000000;
+    FONT: normal 16pt Verdana, Arial, Helvetica, sans-serif
+}
+
+.SubTitulo {
+    COLOR: #000000;
+    FONT: bold 12pt Verdana, Arial, Helvetica, sans-serif
+}
+
+.RenglonTablaAyuda {
+    BACKGROUND-COLOR: #eeeeee;
+    COLOR: #333366;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: normal
+}
+
+.Terminar {
+    color: red;
+    FONT: 9pt Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+.textbox {
+    border: 1px solid #DBE1EB;
+    font-size: 16px;
+    font-family: Arial, Verdana;
+    padding-left: 7px;
+    padding-right: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+}
+
+.textbox:focus {
+    color: #2E3133;
+    border-color: #FBFFAD;
+}
+
+.boton {
+    /*background-image: url(../imagenes/limpiar.png); 
+    background-repeat: no-repeat;  
+    padding: 3px 28px 3px !important;*/
+    font-family: Arial, Verdana;
+    font-size: 18px !important;
+    background-color: #707070;
+    text-shadow: 1px 1px #707070;
+    color: #ffffff;
+    border-radius: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #707070;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.boton0 {
+    background-image: url(../imagenes/limpiar.png);
+    /* 16px x 16px */
+    background-repeat: no-repeat;
+    /* make the background image appear only once */
+    padding: 3px 28px 3px !important;
+    font-family: Arial, Verdana;
+    font-size: 18px !important;
+    background-color: #707070;
+    text-shadow: 1px 1px #707070;
+    color: #ffffff;
+    border-radius: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #707070;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.boton2 {
+    background-image: url(../imagenes/lupa.png);
+    /* 16px x 16px */
+    background-repeat: no-repeat;
+    /* make the background image appear only once */
+    padding: 3px 28px 3px !important;
+    font-family: Arial, Verdana;
+    font-size: 18px !important;
+    background-color: #C60528;
+    text-shadow: 1px 1px #C60528;
+    color: #ffffff;
+    border-radius: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #C60528;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
