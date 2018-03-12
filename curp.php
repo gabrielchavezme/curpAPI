@@ -11,15 +11,16 @@ $urlcaptcha ="https://consultas.curp.gob.mx/CurpSP/captchac_u_r_pa";
 <input type="text" name="codigo" maxlength="5" size="25" value="" placeholder="Captura el Captcha"><br>
 
 
-<?php //capturese en mayusculas
-$strPrimerApellido = "PEDRAZA";
-$strSegundoAplido = "PERALES";
-$strNombre = "JUAN JOSE";
-$strSexo = "H"; // H =hombre M=mujer
-$strdia = '13';
-$strmes = '02';
-$stranio = '1981';
-$strEntidadNacimiento ='TS'; //vease la tabla de entidades federaticas abajo
+<?php 
+//PUEDES LLENAR LAS VARIABLES CON TU bd, y gestionarlas capturese en mayusculas
+	$strPrimerApellido = "PEDRAZA";
+	$strSegundoAplido = "PERALES";
+	$strNombre = "JUAN JOSE";
+	$strSexo = "H"; // H =hombre M=mujer
+	$strdia = '13';
+	$strmes = '02';
+	$stranio = '1981';
+	$strEntidadNacimiento ='TS'; //vease la tabla de entidades federaticas abajo
 ?>
 <input type="hidden" name="strPrimerApellido" maxlength="50" size="51" value="<?php echo $strPrimerApellido; ?>" >
 <input type="hidden" name="strSegundoAplido" maxlength="50" size="51" value="<?php echo $strSegundoAplido; ?>" >
