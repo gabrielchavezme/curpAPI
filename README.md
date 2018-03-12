@@ -21,3 +21,5 @@ Esto es lo que llevo hasta ahora, es mi intento por gestionar el CURP directo de
 #### Mi opinion personal, es que la RENAPO, deberia de contar con una API oficial para que los desarrolladores pudieramos validar u obtener el curp, ya que es un buen dato para relacionar ya sea clientes, beneficiarios y otros, a nivel persona. En mi caso actualmente tengo una gran base de datos donde no todos llenaron su curp por x circunstancia y es necesario tenerla para dar el siguiente paso en la construccion de una aplicacion que esta en proceso.
 
 
+comentarios y sugerencias estoy a sus ordenes:
+Ing. J. Jose Pedraza | printepolis@gmail.com
